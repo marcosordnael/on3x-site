@@ -1,21 +1,22 @@
 <section
+  id="hero"
   class="hero crypto-hero bg-white dark:bg-dark-300 overflow-hidden relative max-lg:pt-[160px] max-lg:pb-25 pt-[230px] pb-[140px] max-md:pb-[70px]"
   id="scene"
 >
   <img
-    src="images/crypto/bitcoin.png"
+    src="/images/crypto/bitcoin.png"
     alt=""
     class="absolute top-[160px] left-[200px] max-md:hidden parallax-effect"
     parallax-value="2"
   />
   <img
-    src="images/crypto/clip.png"
+    src="/images/crypto/clip.png"
     alt=""
     class="absolute top-[160px] right-12 hidden dark:inline-block  max-md:hidden parallax-effect"
     parallax-value="1"
   />
   <img
-    src="images/crypto/clip-dark.png"
+    src="/images/crypto/clip-dark.png"
     alt=""
     class="absolute top-[160px] right-12 dark:hidden  max-md:hidden parallax-effect"
     parallax-value="1"
@@ -110,7 +111,7 @@
     >
       <div class="col-span-12 text-center mb-15 lg:mb-150">
         <p class="max-lg:mb-4 mb-8 font-medium uppercase">Effortless wallet</p>
-        <h1 class="mb-12 max-md:mb-8">
+        <h1 class="mb-12 max-md:mb-8 text-4xl xl:text-6xl font-bold leading-tight">
           Access the most recent Bitcoin <br />
           price index.
         </h1>
@@ -150,41 +151,41 @@
           </div>
           <div class="absolute left-1/2 -translate-x-1/2 -top-150 -z-20">
             <img
-              src="images/crypto/crypto-hero-world.svg"
+              src="/images/crypto/crypto-hero-world.svg"
               alt="crypto-hero-light"
               class="inline-block dark:hidden"
             />
             <img
-              src="images/crypto/crypto-hero-world-dark.svg"
+              src="/images/crypto/crypto-hero-world-dark.svg"
               alt="crypto-hero-light"
               class="hidden dark:inline-block"
             />
           </div>
           <div class="w-10/12">
             <img
-              src="images/crypto/crypto-hero-graph.png"
+              src="/images/crypto/crypto-hero-graph.png"
               alt="crypto-hero-light"
               class="inline-block dark:hidden w-full rounded-medium"
             />
             <img
-              src="images/crypto/crypto-hero-graph-dark.png"
+              src="/images/crypto/crypto-hero-graph-dark.png"
               alt="crypto-hero-light"
               class="hidden dark:inline-block w-full rounded-medium"
             />
           </div>
           <div class="w-2/5 absolute right-0 -top-15">
             <img
-              src="images/crypto/coin.png"
+              src="/images/crypto/coin.png"
               alt=""
               class="absolute top-16 -left-16"
             />
             <img
-              src="images/crypto/crypto-hero-device.png"
+              src="/images/crypto/crypto-hero-device.png"
               alt="crypto-hero-light"
               class="inline-block dark:hidden w-full rounded-medium"
             />
             <img
-              src="images/crypto/crypto-hero-device-dark.png"
+              src="/images/crypto/crypto-hero-device-dark.png"
               alt="crypto-hero-light"
               class="hidden dark:inline-block w-full rounded-medium"
             />
@@ -193,17 +194,9 @@
       </div>
       <div class="col-span-12 mx-auto md:-mt-150">
         <div class="relative bg-white rounded-[230px] dark:bg-dark-200 shadow-box p-2.5 mb-8 z-100 inline-block">
-          <div
-            class="border border-dashed rounded-[210px] border-gray-100 dark:border-borderColour-dark py-2.5 h-full text-center relative w-[630px] max-md:w-full flex items-center justify-center"
-          >
-            <div
-              class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[300px] h-20 rounded-full bg-primary-200/40 dark:bg-primary-200/10 blur-[145px]"
-            ></div>
-            <h2
-              class="text-[64px] max-md:text-[24px]  max-md:px-2.5"
-              id="countdown"
-              data-date="2024-11-26T23:59:59"
-            ></h2>
+          <div class="border border-dashed rounded-[210px] border-gray-100 dark:border-borderColour-dark py-2.5 h-full text-center relative w-[630px] max-md:w-full flex items-center justify-center">
+            <div class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[300px] h-20 rounded-full bg-primary-200/40 dark:bg-primary-200/10 blur-[145px]"></div>
+            <h2 class="text-[64px] max-md:text-[24px]  max-md:px-2.5" id="countdown" data-date="2024-11-26T23:59:59">Countdown finished!</h2>
           </div>
         </div>
       </div>

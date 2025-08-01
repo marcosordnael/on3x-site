@@ -1,8 +1,8 @@
 {{-- Crypto Blog Section --}}
-<section class="bg-white  dark:bg-dark-300 pb-150 relative max-md:pb-20 ">
-  <div class="absolute left-0 right-0 top-1/2 -translate-y-1/2 bg-[url('../images/service-bg.png')] bg-no-repeat bg-center opacity-70 w-full h-full bg-[length:600px_1800px] md:hidden"></div>
+<section id="blog" class="bg-white  dark:bg-dark-300 pb-150 relative max-md:pb-20 pt-20">
+  <div class="absolute left-0 right-0 top-1/2 -translate-y-1/2 bg-[url('/images/service-bg.png')] bg-no-repeat bg-center opacity-70 w-full h-full bg-[length:600px_1800px] md:hidden"></div>
   <div class="container relative">
-    <div class="text-center max-w-[550px] mx-auto mb-16">
+    <div class="text-center max-w-[550px] mx-auto mb-16" data-aos="fade-down" data-aos-duration="600" data-aos-delay="100">
       <p class="section-tagline">Financial blog tips and tricks</p>
       <h2>Our recent news &amp; insights</h2>
     </div>
@@ -14,10 +14,10 @@
       </div>
 
       <div class=" grid grid-cols-3 max-md:grid-cols-1 max-lg:grid-cols-2 gap-8">
-        <article class="bg-white dark:bg-dark-200 rounded-medium p-2.5 shadow-nav scale-100 hover:scale-105 transition-transform duration-500 hover:transition-transform hover:duration-500">
+        <article class="bg-white dark:bg-dark-200 rounded-medium p-2.5 shadow-nav scale-100 hover:scale-105 transition-transform duration-500 hover:transition-transform hover:duration-500" data-aos="fade-up" data-aos-duration="700" data-aos-delay="200">
           <div class="border border-dashed rounded border-gray-100 dark:border-borderColour-dark p-6 max-md:p-4 ">
-            <img src="images/blog/blog1.png" alt="image" class="mb-6 w-full rounded-md">
-            <div>
+            <img src="/images/blog/blog1.png" alt="image" class="mb-6 w-full rounded-md" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300">
+            <div data-aos="fade-up" data-aos-duration="600" data-aos-delay="400">
               <a href="blog-details.html" class="badge">
                 Marketing
               </a>
@@ -37,10 +37,10 @@
             </div>
           </div>
         </article>
-        <article class="bg-white dark:bg-dark-200 rounded-medium p-2.5 shadow-nav scale-100 hover:scale-105 transition-transform duration-500 hover:transition-transform hover:duration-500">
+        <article class="bg-white dark:bg-dark-200 rounded-medium p-2.5 shadow-nav scale-100 hover:scale-105 transition-transform duration-500 hover:transition-transform hover:duration-500" data-aos="fade-up" data-aos-duration="700" data-aos-delay="300">
           <div class="border border-dashed rounded border-gray-100 dark:border-borderColour-dark p-6 max-md:p-4">
-            <img src="images/blog/blog2.png" alt="image" class="mb-6 w-full  rounded-md">
-            <div>
+            <img src="/images/blog/blog2.png" alt="image" class="mb-6 w-full  rounded-md" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="400">
+            <div data-aos="fade-up" data-aos-duration="600" data-aos-delay="500">
               <a href="blog-details.html" class="badge">
                 Banking
               </a>
@@ -60,10 +60,10 @@
             </div>
           </div>
         </article>
-        <article class="bg-white dark:bg-dark-200 rounded-medium p-2.5 shadow-nav scale-100 hover:scale-105 transition-transform duration-500 hover:transition-transform hover:duration-500">
+        <article class="bg-white dark:bg-dark-200 rounded-medium p-2.5 shadow-nav scale-100 hover:scale-105 transition-transform duration-500 hover:transition-transform hover:duration-500" data-aos="fade-up" data-aos-duration="700" data-aos-delay="400">
           <div class="border border-dashed rounded border-gray-100 dark:border-borderColour-dark p-6 max-md:p-4">
-            <img src="images/blog/blog3.png" alt="image" class="mb-6 w-full  rounded-md">
-            <div>
+            <img src="/images/blog/blog3.png" alt="image" class="mb-6 w-full  rounded-md" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="500">
+            <div data-aos="fade-up" data-aos-duration="600" data-aos-delay="600">
               <a href="blog-details.html" class="badge">
                 Payment
               </a>

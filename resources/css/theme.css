@@ -1802,7 +1802,7 @@ a:is(.dark *){
   animation: floatingDown 5000ms ease-in-out infinite;
 }
 .cursor-fancy{
-  cursor: url(../images/cursor.png), default;
+  cursor: url(/images/cursor.png), default;
 }
 .cursor-pointer{
   cursor: pointer;
@@ -2121,16 +2121,16 @@ a:is(.dark *){
   background-image: linear-gradient(180deg,var(--tw-gradient-stops));
 }
 .bg-\[url\(\'\.\.\/images\/core-gradient\.png\'\)\]{
-  background-image: url('../images/core-gradient.png');
+  background-image: url('/images/core-gradient.png');
 }
 .bg-\[url\(\'\.\.\/images\/hero-gradient\.png\'\)\]{
-  background-image: url('../images/hero-gradient.png');
+  background-image: url('/images/hero-gradient.png');
 }
 .bg-\[url\(\'\.\.\/images\/price-gradient\.png\'\)\]{
-  background-image: url('../images/price-gradient.png');
+  background-image: url('/images/price-gradient.png');
 }
 .bg-\[url\(\'\.\.\/images\/service-bg\.png\'\)\]{
-  background-image: url('../images/service-bg.png');
+  background-image: url('/images/service-bg.png');
 }
 .bg-gradient-to-b{
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
@@ -2821,7 +2821,7 @@ a:is(.dark *){
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .content-\[url\(\'\.\.\/images\/checkmark\.svg\'\)\]{
-  --tw-content: url('../images/checkmark.svg');
+  --tw-content: url('/images/checkmark.svg');
   content: var(--tw-content);
 }
 .container{
@@ -2943,11 +2943,11 @@ a:is(.dark *){
   width: 1px;
   --tw-translate-y: -50%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-  --tw-content: url("../images/clients/client-item-border.svg");
+  --tw-content: url("/images/clients/client-item-border.svg");
   content: var(--tw-content);
 }
 .marquee-items .marquee-content .marquee-content-list:is(.dark *)::after{
-  --tw-content: url("../images/clients/client-item-border-dark.svg");
+  --tw-content: url("/images/clients/client-item-border-dark.svg");
   content: var(--tw-content);
 }
 
@@ -3354,13 +3354,13 @@ span{
   width: 1.75rem;
   --tw-text-opacity: 1;
   color: rgb(24 24 27 / var(--tw-text-opacity, 1));
-  --tw-content: url("../images/checkmark.svg");
+  --tw-content: url("/images/checkmark.svg");
   content: var(--tw-content);
 }
 .singlePage ul li:is(.dark *):before{
   --tw-text-opacity: 1;
   color: rgb(177 227 70 / var(--tw-text-opacity, 1));
-  --tw-content: url("../images/checkmark-dark.svg");
+  --tw-content: url("/images/checkmark-dark.svg");
   content: var(--tw-content);
 }
 @media not all and (min-width: 768px){
@@ -3530,13 +3530,13 @@ span{
   width: 1.75rem;
   --tw-text-opacity: 1;
   color: rgb(24 24 27 / var(--tw-text-opacity, 1));
-  --tw-content: url("../images/checkmark.svg");
+  --tw-content: url("/images/checkmark.svg");
   content: var(--tw-content);
 }
 .blog-details-body ul li:is(.dark *):before{
   --tw-text-opacity: 1;
   color: rgb(177 227 70 / var(--tw-text-opacity, 1));
-  --tw-content: url("../images/checkmark-dark.svg");
+  --tw-content: url("/images/checkmark-dark.svg");
   content: var(--tw-content);
 }
 @media not all and (min-width: 768px){
@@ -3704,7 +3704,7 @@ span{
 }
 .before\:bg-\[url\(\'\.\.\/images\/payment\/member-border\.svg\'\)\]::before{
   content: var(--tw-content);
-  background-image: url('../images/payment/member-border.svg');
+  background-image: url('/images/payment/member-border.svg');
 }
 .before\:bg-gradient-to-l::before{
   content: var(--tw-content);
@@ -3936,15 +3936,15 @@ span{
 }
 .after\:bg-\[url\(\'\.\.\/images\/banking\/border\.svg\'\)\]::after{
   content: var(--tw-content);
-  background-image: url('../images/banking/border.svg');
+  background-image: url('/images/banking/border.svg');
 }
 .after\:bg-\[url\(\'\.\.\/images\/blog\/blog-seperator\.svg\'\)\]::after{
   content: var(--tw-content);
-  background-image: url('../images/blog/blog-seperator.svg');
+  background-image: url('/images/blog/blog-seperator.svg');
 }
 .after\:bg-\[url\(\'\.\.\/images\/payment\/member-border\.svg\'\)\]::after{
   content: var(--tw-content);
-  background-image: url('../images/payment/member-border.svg');
+  background-image: url('/images/payment/member-border.svg');
 }
 .after\:bg-gradient-to-b::after{
   content: var(--tw-content);
@@ -4039,7 +4039,7 @@ span{
   content: var(--tw-content);
 }
 .after\:content-\[url\(\'\.\.\/images\/clients\/client-item-border\.svg\'\)\]::after{
-  --tw-content: url('../images/clients/client-item-border.svg');
+  --tw-content: url('/images/clients/client-item-border.svg');
   content: var(--tw-content);
 }
 .last\:mb-0:last-child{
@@ -4372,7 +4372,7 @@ span{
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 .dark\:content-\[url\(\'\.\.\/images\/checkmark-dark\.svg\'\)\]:is(.dark *){
-  --tw-content: url('../images/checkmark-dark.svg');
+  --tw-content: url('/images/checkmark-dark.svg');
   content: var(--tw-content);
 }
 .dark\:stop-color-dark:is(.dark *) {
@@ -4419,7 +4419,7 @@ span{
 }
 .dark\:before\:bg-\[url\(\'\.\.\/images\/payment\/member-border-dark\.svg\'\)\]:is(.dark *)::before{
   content: var(--tw-content);
-  background-image: url('../images/payment/member-border-dark.svg');
+  background-image: url('/images/payment/member-border-dark.svg');
 }
 .dark\:before\:from-dark-gradient:is(.dark *)::before{
   content: var(--tw-content);
@@ -4449,15 +4449,15 @@ span{
 }
 .dark\:after\:bg-\[url\(\'\.\.\/images\/banking\/border-dark\.svg\'\)\]:is(.dark *)::after{
   content: var(--tw-content);
-  background-image: url('../images/banking/border-dark.svg');
+  background-image: url('/images/banking/border-dark.svg');
 }
 .dark\:after\:bg-\[url\(\'\.\.\/images\/blog\/blog-seperator-dark\.svg\'\)\]:is(.dark *)::after{
   content: var(--tw-content);
-  background-image: url('../images/blog/blog-seperator-dark.svg');
+  background-image: url('/images/blog/blog-seperator-dark.svg');
 }
 .dark\:after\:bg-\[url\(\'\.\.\/images\/payment\/member-border-dark\.svg\'\)\]:is(.dark *)::after{
   content: var(--tw-content);
-  background-image: url('../images/payment/member-border-dark.svg');
+  background-image: url('/images/payment/member-border-dark.svg');
 }
 .after\:dark\:from-dark-gradient\/0:is(.dark *)::after{
   content: var(--tw-content);
@@ -4481,7 +4481,7 @@ span{
   --tw-gradient-to: rgb(25 25 23 / 1) var(--tw-gradient-to-position);
 }
 .dark\:after\:content-\[url\(\'\.\.\/images\/clients\/client-item-border-dark\.svg\'\)\]:is(.dark *)::after{
-  --tw-content: url('../images/clients/client-item-border-dark.svg');
+  --tw-content: url('/images/clients/client-item-border-dark.svg');
   content: var(--tw-content);
 }
 .dark\:focus-within\:border-primary:focus-within:is(.dark *){
@@ -4857,11 +4857,11 @@ span{
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   }
   .max-lg\:after\:content-\[url\(\'\.\.\/images\/payment\/coreborder-bottom-mobile\.svg\'\)\]::after{
-    --tw-content: url('../images/payment/coreborder-bottom-mobile.svg');
+    --tw-content: url('/images/payment/coreborder-bottom-mobile.svg');
     content: var(--tw-content);
   }
   .dark\:max-lg\:after\:content-\[url\(\'\.\.\/images\/payment\/coreborder-bottom-mobile-dark\.svg\'\)\]:is(.dark *)::after{
-    --tw-content: url('../images/payment/coreborder-bottom-mobile-dark.svg');
+    --tw-content: url('/images/payment/coreborder-bottom-mobile-dark.svg');
     content: var(--tw-content);
   }
 }
@@ -5604,11 +5604,11 @@ span{
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   }
   .lg\:after\:content-\[url\(\'\.\.\/images\/payment\/coreborder-right\.svg\'\)\]::after{
-    --tw-content: url('../images/payment/coreborder-right.svg');
+    --tw-content: url('/images/payment/coreborder-right.svg');
     content: var(--tw-content);
   }
   .lg\:dark\:after\:content-\[url\(\'\.\.\/images\/payment\/coreborder-right-dark\.svg\'\)\]:is(.dark *)::after{
-    --tw-content: url('../images/payment/coreborder-right-dark.svg');
+    --tw-content: url('/images/payment/coreborder-right-dark.svg');
     content: var(--tw-content);
   }
 }
@@ -5839,11 +5839,11 @@ span{
 }
 .\[\&\>\*\:not\(\:last-child\)\]\:after\:bg-\[url\(\'\.\.\/images\/analytics\/account-right-arrow\.png\'\)\]>*:not(:last-child)::after{
   content: var(--tw-content);
-  background-image: url('../images/analytics/account-right-arrow.png');
+  background-image: url('/images/analytics/account-right-arrow.png');
 }
 .\[\&\>\*\:not\(\:last-child\)\]\:after\:bg-\[url\(\'\.\.\/images\/crypto\/account-right-arrow\.png\'\)\]>*:not(:last-child)::after{
   content: var(--tw-content);
-  background-image: url('../images/crypto/account-right-arrow.png');
+  background-image: url('/images/crypto/account-right-arrow.png');
 }
 .\[\&\>\*\:not\(\:last-child\)\]\:after\:bg-center>*:not(:last-child)::after{
   content: var(--tw-content);
@@ -5854,7 +5854,7 @@ span{
   background-repeat: no-repeat;
 }
 .\[\&\>\*\:not\(\:last-child\)\]\:after\:content-\[url\(\'\.\.\/images\/payment\/seperator\.png\'\)\]>*:not(:last-child)::after{
-  --tw-content: url('../images/payment/seperator.png');
+  --tw-content: url('/images/payment/seperator.png');
   content: var(--tw-content);
 }
 .dark\:\[\&\>\*\:not\(\:last-child\)\]\:border-borderColour-dark>*:not(:last-child):is(.dark *){
@@ -5863,14 +5863,14 @@ span{
 }
 .dark\:\[\&\>\*\:not\(\:last-child\)\]\:after\:bg-\[url\(\'\.\.\/images\/analytics\/account-right-arrow-dark\.png\'\)\]>*:not(:last-child):is(.dark *)::after{
   content: var(--tw-content);
-  background-image: url('../images/analytics/account-right-arrow-dark.png');
+  background-image: url('/images/analytics/account-right-arrow-dark.png');
 }
 .dark\:\[\&\>\*\:not\(\:last-child\)\]\:after\:bg-\[url\(\'\.\.\/images\/crypto\/account-right-arrow-dark\.png\'\)\]>*:not(:last-child):is(.dark *)::after{
   content: var(--tw-content);
   background-image: url('/images/crypto/account-right-arrow-dark.png');
 }
 .dark\:\[\&\>\*\:not\(\:last-child\)\]\:after\:content-\[url\(\'\.\.\/images\/payment\/seperator-dark\.png\'\)\]>*:not(:last-child):is(.dark *)::after{
-  --tw-content: url('../images/payment/seperator-dark.png');
+  --tw-content: url('/images/payment/seperator-dark.png');
   content: var(--tw-content);
 }
 @media not all and (min-width: 1024px){
@@ -5921,11 +5921,11 @@ span{
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   }
   .max-md\:\[\&\>\*\:not\(\:last-child\)\]\:after\:content-\[url\(\'\.\.\/images\/clients\/client-item-border-mobile\.svg\'\)\]>*:not(:last-child)::after{
-    --tw-content: url('../images/clients/client-item-border-mobile.svg');
+    --tw-content: url('/images/clients/client-item-border-mobile.svg');
     content: var(--tw-content);
   }
   .max-md\:dark\:\[\&\>\*\:not\(\:last-child\)\]\:after\:content-\[url\(\'\.\.\/images\/clients\/client-item-border-mobile-dark\.svg\'\)\]>*:not(:last-child):is(.dark *)::after{
-    --tw-content: url('../images/clients/client-item-border-mobile-dark.svg');
+    --tw-content: url('/images/clients/client-item-border-mobile-dark.svg');
     content: var(--tw-content);
   }
 }
@@ -5956,11 +5956,11 @@ span{
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   }
   .md\:\[\&\>\*\:not\(\:last-child\)\]\:after\:content-\[url\(\'\.\.\/images\/clients\/client-item-border\.svg\'\)\]>*:not(:last-child)::after{
-    --tw-content: url('../images/clients/client-item-border.svg');
+    --tw-content: url('/images/clients/client-item-border.svg');
     content: var(--tw-content);
   }
   .md\:dark\:\[\&\>\*\:not\(\:last-child\)\]\:after\:content-\[url\(\'\.\.\/images\/clients\/client-item-border-dark\.svg\'\)\]>*:not(:last-child):is(.dark *)::after{
-    --tw-content: url('../images/clients/client-item-border-dark.svg');
+    --tw-content: url('/images/clients/client-item-border-dark.svg');
     content: var(--tw-content);
   }
 }
@@ -5999,11 +5999,11 @@ span{
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 .\[\&\>\*\:nth-child\(2n\+1\)\]\:before\:content-\[url\(\'\.\.\/images\/payment\/coreborder-right\.svg\'\)\]>*:nth-child(2n+1)::before{
-  --tw-content: url('../images/payment/coreborder-right.svg');
+  --tw-content: url('/images/payment/coreborder-right.svg');
   content: var(--tw-content);
 }
 .dark\:\[\&\>\*\:nth-child\(2n\+1\)\]\:before\:content-\[url\(\'\.\.\/images\/payment\/coreborder-right-dark\.svg\'\)\]>*:nth-child(2n+1):is(.dark *)::before{
-  --tw-content: url('../images/payment/coreborder-right-dark.svg');
+  --tw-content: url('/images/payment/coreborder-right-dark.svg');
   content: var(--tw-content);
 }
 @media not all and (min-width: 1024px){
@@ -6038,11 +6038,11 @@ span{
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 .\[\&\>\*\:nth-child\(3n\+1\)\]\:before\:content-\[url\(\'\.\.\/images\/payment\/coreborder-right\.svg\'\)\]>*:nth-child(3n+1)::before{
-  --tw-content: url('../images/payment/coreborder-right.svg');
+  --tw-content: url('/images/payment/coreborder-right.svg');
   content: var(--tw-content);
 }
 .dark\:\[\&\>\*\:nth-child\(3n\+1\)\]\:before\:content-\[url\(\'\.\.\/images\/payment\/coreborder-right-dark\.svg\'\)\]>*:nth-child(3n+1):is(.dark *)::before{
-  --tw-content: url('../images/payment/coreborder-right-dark.svg');
+  --tw-content: url('/images/payment/coreborder-right-dark.svg');
   content: var(--tw-content);
 }
 @media not all and (min-width: 1024px){
@@ -6078,7 +6078,7 @@ span{
 }
 .\[\&\>\*\:nth-child\(odd\)\]\:after\:bg-\[url\(\'\.\.\/images\/payment\/seperator\.png\'\)\]>*:nth-child(odd)::after{
   content: var(--tw-content);
-  background-image: url('../images/payment/seperator.png');
+  background-image: url('/images/payment/seperator.png');
 }
 .\[\&\>\*\:nth-child\(odd\)\]\:after\:bg-full>*:nth-child(odd)::after{
   content: var(--tw-content);
@@ -6094,7 +6094,7 @@ span{
 }
 .dark\:\[\&\>\*\:nth-child\(odd\)\]\:after\:bg-\[url\(\'\.\.\/images\/payment\/seperator-dark\.png\'\)\]>*:nth-child(odd):is(.dark *)::after{
   content: var(--tw-content);
-  background-image: url('../images/payment/seperator-dark.png');
+  background-image: url('/images/payment/seperator-dark.png');
 }
 .\[\&\>\*\:nth-row\(n\+2\)\]\:mb-32>*:nth-row(n+2){
   margin-bottom: 8rem;
@@ -6126,3 +6126,10 @@ span{
   }
 }
 
+/* Override para corrigir caminhos de assets */
+.marquee-items .marquee-content .marquee-content-list::after {
+  --tw-content: url("/images/clients/client-item-border.svg") !important;
+}
+.marquee-items .marquee-content .marquee-content-list:is(.dark *)::after {
+  --tw-content: url("/images/clients/client-item-border-dark.svg") !important;
+}

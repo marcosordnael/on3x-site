@@ -1,6 +1,6 @@
-<div class="pt-150 pb-150 relative">
+<section id="services" class="pt-150 pb-150 relative">
   <div
-    class="absolute left-1/2 top-0 w-full h-full -translate-x-1/2 bg-cover  bg-[url('../images/hero-gradient.png')] bg-no-repeat bg-center opacity-70 md:hidden -z-10"
+    class="absolute left-1/2 top-0 w-full h-full -translate-x-1/2 bg-cover  bg-[url('/images/hero-gradient.png')] bg-no-repeat bg-center opacity-70 md:hidden -z-10"
   ></div>
   <div class="container relative">
     <div class=" text-center mb-14">
@@ -40,12 +40,12 @@
                 class="border border-dashed rounded-full border-gray-100 dark:border-borderColour-dark p-5 h-full max-lg:p-5"
               >
                 <img
-                  src="images/crypto/wallet.svg"
+                  src="/images/crypto/wallet.svg"
                   alt="account icon"
                   class="dark:hidden w-[30px] aspect-square"
                 />
                 <img
-                  src="images/crypto/wallet-dark.svg"
+                  src="/images/crypto/wallet-dark.svg"
                   alt="account icon"
                   class="hidden dark:inline-block  w-[30px] aspect-square"
                 />
@@ -99,12 +99,12 @@
                 class="border border-dashed rounded-full border-gray-100 dark:border-borderColour-dark p-5 h-full max-lg:p-5"
               >
                 <img
-                  src="images/crypto/sales.svg"
+                  src="/images/crypto/sales.svg"
                   alt="account icon"
                   class="dark:hidden w-[30px] aspect-square"
                 />
                 <img
-                  src="images/crypto/sales-dark.svg"
+                  src="/images/crypto/sales-dark.svg"
                   alt="account icon"
                   class="hidden dark:inline-block  w-[30px] aspect-square"
                 />
@@ -125,18 +125,18 @@
         data-aos-once="true"
       >
         <img
-          src="images/services/service-score.png"
+          src="/images/services/service-score.png"
           alt="service-score"
           class="dark:hidden max-w-full mb-8"
         />
         <img
-          src="images/services/service-score-dark.png"
+          src="/images/services/service-score-dark.png"
           alt="service-score"
           class="hidden dark:inline-block max-w-full  mb-12"
         />
 
         <img
-          src="images/services/service-card.png"
+          src="/images/services/service-card.png"
           alt="service-card"
           class="max-w-full"
         />
@@ -155,12 +155,12 @@
                 class="border border-dashed rounded-full border-gray-100 dark:border-borderColour-dark p-5 h-full max-lg:p-5"
               >
                 <img
-                  src="images/crypto/exchange.svg"
+                  src="/images/crypto/exchange.svg"
                   alt="account icon"
                   class="dark:hidden w-[30px] aspect-square"
                 />
                 <img
-                  src="images/crypto/exchange-dark.svg"
+                  src="/images/crypto/exchange-dark.svg"
                   alt="account icon"
                   class="hidden dark:inline-block  w-[30px] aspect-square"
                 />
@@ -179,12 +179,12 @@
                 class="border border-dashed rounded-full border-gray-100 dark:border-borderColour-dark p-5 h-full max-lg:p-5"
               >
                 <img
-                  src="images/crypto/payment.svg"
+                  src="/images/crypto/payment.svg"
                   alt="account icon"
                   class="dark:hidden w-[30px] aspect-square"
                 />
                 <img
-                  src="images/crypto/payment-dark.svg"
+                  src="/images/crypto/payment-dark.svg"
                   alt="account icon"
                   class="hidden dark:inline-block  w-[30px] aspect-square"
                 />

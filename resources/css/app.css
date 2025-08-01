@@ -1,3 +1,9 @@
+/* Importar FontAwesome */
+@import '@fortawesome/fontawesome-free/css/all.css';
+
+/* Importar tema personalizado */
+@import 'theme.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -6,6 +12,21 @@
 @layer base {
   html {
     font-family: 'Inter', 'Playfair Display', 'Plus Jakarta Sans', sans-serif;
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px; /* Altura do navbar fixo */
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+  
+  /* Remove espaços extras após footer */
+  section:last-child {
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
   }
 }
 
@@ -37,4 +58,169 @@
   .container {
     @apply mx-auto px-4 max-w-7xl;
   }
+}
+
+/* CSS Override para corrigir caminhos de assets - deve vir depois do Tailwind */
+.marquee-items .marquee-content .marquee-content-list::after {
+  --tw-content: url("/images/clients/client-item-border.svg") !important;
+  content: var(--tw-content) !important;
+}
+
+.marquee-items .marquee-content .marquee-content-list:is(.dark *)::after {
+  --tw-content: url("/images/clients/client-item-border-dark.svg") !important;
+  content: var(--tw-content) !important;
+}
+
+/* Override para responsivo */
+@media (max-width: 767px) {
+  .max-md\:dark\:\[\&\>\*\:not\(\:last-child\)\]\:after\:content-\[url\(\'\.\.\/images\/clients\/client-item-border-mobile-dark\.svg\'\)\]>*:not(:last-child):is(.dark *)::after {
+    --tw-content: url("/images/clients/client-item-border-mobile-dark.svg") !important;
+    content: var(--tw-content) !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:dark\:\[\&\>\*\:not\(\:last-child\)\]\:after\:content-\[url\(\'\.\.\/images\/clients\/client-item-border-dark\.svg\'\)\]>*:not(:last-child):is(.dark *)::after {
+    --tw-content: url("/images/clients/client-item-border-dark.svg") !important;
+    content: var(--tw-content) !important;
+  }
+}
+
+/* Override para botões do navbar - fundo cinza com transição suave para verde */
+.btn-navbar {
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  border-radius: 30px;
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  letter-spacing: -0.3px;
+  color: #A1A49D !important; /* texto cinza */
+  background: transparent !important;
+  border: 1px solid #E5E7EB !important; /* borda cinza clara */
+  transition: all 0.3s ease !important;
+}
+
+/* Pseudo-elemento ::before para a transição verde */
+.btn-navbar::before {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  z-index: -10;
+  height: 100%;
+  width: 100%;
+  transform-origin: right;
+  --tw-scale-x: 0;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  border-radius: 30px;
+  background-color: #B1E346 !important; /* verde claro no hover */
+  transition-property: transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 500ms;
+  content: "";
+}
+
+/* Pseudo-elemento ::after para o fundo cinza base */
+.btn-navbar::after {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -20;
+  height: 100%;
+  width: 100%;
+  border-radius: 30px;
+  content: "";
+  background-color: #212220 !important; /* fundo cinza escuro */
+}
+
+.btn-navbar:hover {
+  color: #18181B !important; /* texto escuro no hover */
+}
+
+.btn-navbar:hover::before {
+  transform-origin: left;
+  --tw-scale-x: 1;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+/* Estilos para modo escuro */
+.btn-navbar:is(.dark *) {
+  color: white !important;
+  border-color: #374151 !important;
+}
+
+.btn-navbar:is(.dark *)::before {
+  background-color: #B1E346 !important; /* verde claro */
+}
+
+.btn-navbar:is(.dark *)::after {
+  background-color: #212220 !important; /* fundo cinza escuro no modo dark */
+}
+
+.btn-navbar:hover:is(.dark *) {
+  color: #18181B !important; /* texto escuro no hover mesmo no modo dark */
+}
+
+/* Estilos para o modal de busca */
+#search-modal {
+  backdrop-filter: blur(8px);
+}
+
+#search-modal.hidden {
+  pointer-events: none;
+}
+
+#search-modal:not(.hidden) {
+  pointer-events: auto;
+}
+
+.search-suggestion:hover,
+.search-result:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.dark .search-suggestion:hover,
+.dark .search-result:hover {
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1);
+}
+
+/* Animações para o modal */
+#search-modal .transform {
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Scroll customizado no modal */
+#search-results::-webkit-scrollbar {
+  width: 6px;
+}
+
+#search-results::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+#search-results::-webkit-scrollbar-thumb {
+  background: #CBD5E0;
+  border-radius: 3px;
+}
+
+.dark #search-results::-webkit-scrollbar-thumb {
+  background: #4A5568;
+}
+
+#search-results::-webkit-scrollbar-thumb:hover {
+  background: #A0AEC0;
+}
+
+.dark #search-results::-webkit-scrollbar-thumb:hover {
+  background: #718096;
+}
+
+/* Estabilização da barra de pesquisa - evita movimentação durante updates */
+.search-stable {
+  transform: none !important;
+  animation: none !important;
+  transition: none !important;
 }

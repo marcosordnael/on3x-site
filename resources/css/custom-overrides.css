@@ -1,0 +1,25 @@
+/* CSS Override para corrigir caminhos de assets */
+.marquee-items .marquee-content .marquee-content-list::after {
+  --tw-content: url("/images/clients/client-item-border.svg") !important;
+  content: var(--tw-content) !important;
+}
+
+.marquee-items .marquee-content .marquee-content-list:is(.dark *)::after {
+  --tw-content: url("/images/clients/client-item-border-dark.svg") !important;
+  content: var(--tw-content) !important;
+}
+
+/* Override para responsivo */
+@media (max-width: 767px) {
+  .max-md\:dark\:\[\&\>\*\:not\(\:last-child\)\]\:after\:content-\[url\(\'\.\.\/images\/clients\/client-item-border-mobile-dark\.svg\'\)\]>*:not(:last-child):is(.dark *)::after {
+    --tw-content: url("/images/clients/client-item-border-mobile-dark.svg") !important;
+    content: var(--tw-content) !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:dark\:\[\&\>\*\:not\(\:last-child\)\]\:after\:content-\[url\(\'\.\.\/images\/clients\/client-item-border-dark\.svg\'\)\]>*:not(:last-child):is(.dark *)::after {
+    --tw-content: url("/images/clients/client-item-border-dark.svg") !important;
+    content: var(--tw-content) !important;
+  }
+}

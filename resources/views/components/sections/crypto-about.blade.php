@@ -1,4 +1,4 @@
-<section class=" bg-white dark:bg-dark-300 overflow-hidden relative pb-150 max-md:pb-20">
+<section id="about" class=" bg-white dark:bg-dark-300 overflow-hidden relative pb-150 max-md:pb-20 pt-20">
   <div class="container relative z-10">
     <div class="grid grid-cols-2 max-md:grid-cols-1 gap-10 1xl:gap-x-24 items-center">
       <div class="relative flex max-md:justify-center justify-end items-center">

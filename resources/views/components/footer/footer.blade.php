@@ -8,8 +8,8 @@
     </div>
     <div class="flex  max-md:flex-col max-md:gap-y-10 items-center justify-between mb-10">
       <div class="max-md:text-center">
-        <img src="images/logo.png" alt="logo" class="inline-block dark:hidden mb-10">
-        <img src="images/logo-dark.svg" alt="logo dark version" class="hidden dark:inline-block  mb-10">
+        <img src="/images/logo.png" alt="logo" class="inline-block dark:hidden mb-10">
+        <img src="/images/logo-dark.svg" alt="logo dark version" class="hidden dark:inline-block  mb-10">
         <p class="max-w-[350px] max-lg:mx-auto">
           Turpis tortor nunc sed amet et faucibus vitae morbi congue sed id mauris.
         </p>
@@ -52,8 +52,8 @@
     </div>
 
     <div class="seperator mb-10">
-      <img src="images/footer-seperator.svg" alt="footer-seperator" class="dark:hidden w-full object-cover">
-      <img src="images/footer-seperator-dark.svg" alt="footer-seperator" class="hidden dark:block w-full object-cover">
+      <img src="/images/footer-seperator.svg" alt="footer-seperator" class="dark:hidden w-full object-cover">
+      <img src="/images/footer-seperator-dark.svg" alt="footer-seperator" class="hidden dark:block w-full object-cover">
     </div>
 
     <div class="grid grid-cols-12 mb-20 max-lg:gap-y-10 max-md:text-center">
@@ -180,8 +180,8 @@
     </div>
 
     <div class="seperator">
-      <img src="images/footer-seperator.svg" alt="footer-seperator" class="dark:hidden w-full object-cover">
-      <img src="images/footer-seperator-dark.svg" alt="footer-seperator" class="hidden dark:block w-full object-cover">
+      <img src="/images/footer-seperator.svg" alt="footer-seperator" class="dark:hidden w-full object-cover">
+      <img src="/images/footer-seperator-dark.svg" alt="footer-seperator" class="hidden dark:block w-full object-cover">
     </div>
 
     <div class="py-10 max-lg:text-center">

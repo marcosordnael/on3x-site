@@ -1,5 +1,5 @@
 {{-- Crypto Team Section --}}
-<section class="bg-white dark:bg-dark-300 pb-[170px]  max-md:pb-25 max-md:pt-20 max-md:overflow-hidden">
+<section id="team" class="bg-white dark:bg-dark-300 pb-[170px]  max-md:pb-25 max-md:pt-20 max-md:overflow-hidden pt-20">
   <div class="container">
     <div class="mb-12 text-center max-w-[475px] mx-auto relative z-10">
       <p class="section-tagline">Our Team</p>
@@ -13,7 +13,7 @@
         <div class="max-1xl:w-[335px] max-1xl:h-[335px]  1xl:w-[442px] 1xl:h-[442px]  rounded-full bg-primary-200/25 -ml-[170px] max-md:ml-0 blur-[145px]"></div>
         <div class="max-1xl:w-[335px] max-1xl:h-[335px]  1xl:w-[442px] 1xl:h-[442px]  rounded-full bg-primary-200/20 -ml-[170px] max-md:ml-0 blur-[145px]"></div>
       </div>
-      <div class="absolute left-1/2 -top-[550px] p-[350px] -translate-x-1/2 bg-contain w-full h-full  bg-[url('../images/hero-gradient.png')] bg-no-repeat bg-center opacity-70 md:hidden -z-10"></div>
+      <div class="absolute left-1/2 -top-[550px] p-[350px] -translate-x-1/2 bg-contain w-full h-full  bg-[url('/images/hero-gradient.png')] bg-no-repeat bg-center opacity-70 md:hidden -z-10"></div>
       <div class="grid grid-cols-3 max-md:grid-cols-1 gap-8">
         <div class="group/image">
           <div class="bg-white dark:bg-dark-200 rounded-medium p-2.5 mb-6">

@@ -1,9 +1,9 @@
 {{-- Crypto Timeline Section --}}
-<section class="bg-white pb-150 dark:bg-dark-300">
+<section id="timeline" class="bg-white pb-150 dark:bg-dark-300 pt-20">
   <div class="container">
     <div class="grid grid-cols-12 max-md:gap-y-8 md:gap-8 items-start">
       <div class="col-span-12 lg:col-span-4  lg:top-150 lg:sticky">
-        <divt class="max-lg:mb-20">
+        <div class="max-lg:mb-20">
           <p class="section-tagline">What we offer</p>
 
           <h2 class="mb-8">Timeline</h2>
@@ -11,7 +11,7 @@
             With concepts in hand, we meticulously design, refining every detail to align with your vision and
             objectives.
           </p>
-        </divt>
+        </div>
       </div>
       <div class="col-span-12 lg:col-span-8 lg:pl-15">
         <div class="relative z-10">

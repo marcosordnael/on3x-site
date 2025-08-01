@@ -3,18 +3,33 @@
     <head>
         @include('partials.head')
     </head>
-    <body class="min-h-screen bg-white antialiased">
-        <div class="bg-background flex min-h-svh flex-col items-center justify-center gap-6 p-6 md:p-10">
-            <div class="flex w-full max-w-sm flex-col gap-2">
-                <a href="{{ route('home') }}" class="flex flex-col items-center gap-2 font-medium" wire:navigate>
-                    <span class="flex h-9 w-9 mb-1 items-center justify-center rounded-md">
-                        <x-app-logo-icon class="size-9 fill-current text-black" />
-                    </span>
-                    <span class="sr-only">{{ config('app.name', 'Laravel') }}</span>
+    <body class="bg-gradient-to-br from-primary-50 via-white to-primary-100 dark:from-dark-300 dark:via-dark-200 dark:to-dark-100 min-h-screen antialiased">
+        <div class="min-h-screen flex flex-col sm:justify-center items-center pt-6 sm:pt-0">
+            <!-- Logo -->
+            <div class="mb-8">
+                <a href="{{ route('home') }}" class="flex items-center" wire:navigate>
+                    <img src="/images/logo.svg" alt="{{ config('app.name') }}" class="h-12 w-auto dark:hidden">
+                    <img src="/images/logo-dark.svg" alt="{{ config('app.name') }}" class="h-12 w-auto hidden dark:block">
                 </a>
-                <div class="flex flex-col gap-6">
+            </div>
+
+            <!-- Auth Card -->
+            <div class="w-full sm:max-w-md mt-6 px-8 py-10 bg-white dark:bg-dark-200 shadow-xl rounded-2xl border border-gray-100 dark:border-borderColour-dark relative overflow-hidden">
+                <!-- Background decoration -->
+                <div class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-primary-100/30 to-primary-200/20 rounded-full -translate-y-16 translate-x-16 dark:from-primary-200/10 dark:to-primary-300/5"></div>
+                <div class="absolute bottom-0 left-0 w-24 h-24 bg-gradient-to-tr from-primary-50/40 to-primary-100/30 rounded-full translate-y-12 -translate-x-12 dark:from-primary-100/5 dark:to-primary-200/10"></div>
+                
+                <!-- Content -->
+                <div class="relative z-10">
                     {{ $slot }}
                 </div>
+            </div>
+
+            <!-- Footer -->
+            <div class="mt-8 text-center">
+                <p class="text-sm text-gray-600 dark:text-gray-400">
+                    © {{ date('Y') }} {{ config('app.name') }}. All rights reserved.
+                </p>
             </div>
         </div>
         @fluxScripts

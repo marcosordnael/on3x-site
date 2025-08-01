@@ -1,4 +1,4 @@
-<section class="client @@spacing max-lg:py-20 ">
+<section id="clients" class="client @@spacing max-lg:py-20 pt-20">
   <div class="container overflow-hidden max-lg:!px-0">
     <div class=" text-center max-w-[550px] px-10px mx-auto max-lg:px-2.5">
       <p class="text-light mb-15">Trusted by thousands of companies across 50+ countries</p>
@@ -8,12 +8,12 @@
     >
       <div class="absolute left-0 -top-[1px] w-full  max-lg:hidden pb-10">
         <img
-          src="images/clients/client-border.svg"
+          src="/images/clients/client-border.svg"
           alt="border"
           class="inline-block dark:hidden"
         />
         <img
-          src="images/clients/client-border-dark.svg"
+          src="/images/clients/client-border-dark.svg"
           alt="border"
           class="hidden dark:inline-block"
         />
@@ -21,76 +21,75 @@
       <div class="marquee marquee-items">
         <div
           class="marquee-content flex items-center justify-between py-8 "
-          id="clients"
         >
           <div class="marquee-content-list">
             <img
-              src="images/clients/group.svg"
+              src="/images/clients/group.svg"
               alt="group"
               class="inline-block dark:hidden"
             />
             <img
-              src="images/clients/group-dark.svg"
+              src="/images/clients/group-dark.svg"
               alt="group"
               class="hidden dark:inline-block"
             />
           </div>
           <div class="marquee-content-list ">
             <img
-              src="images/clients/infinity.svg"
+              src="/images/clients/infinity.svg"
               alt="infinity"
               class="inline-block dark:hidden"
             />
             <img
-              src="images/clients/infinity-dark.svg"
+              src="/images/clients/infinity-dark.svg"
               alt="infinity"
               class="hidden dark:inline-block"
             />
           </div>
           <div class="marquee-content-list ">
             <img
-              src="images//clients/artifact.svg"
+              src="/images//clients/artifact.svg"
               alt="artifact"
               class="inline-block dark:hidden"
             />
             <img
-              src="images/clients/artifact-dark.svg"
+              src="/images/clients/artifact-dark.svg"
               alt="caudile"
               class="hidden dark:inline-block"
             />
           </div>
           <div class="marquee-content-list ">
             <img
-              src="images/clients/caudile.svg"
+              src="/images/clients/caudile.svg"
               alt="caudile"
               class="inline-block dark:hidden"
             />
             <img
-              src="images/clients/caudile-dark.svg"
+              src="/images/clients/caudile-dark.svg"
               alt="caudile"
               class="hidden dark:inline-block"
             />
           </div>
           <div class="marquee-content-list ">
             <img
-              src="images/clients/axeptio.svg"
+              src="/images/clients/axeptio.svg"
               alt="axeptio"
               class="inline-block dark:hidden"
             />
             <img
-              src="images/clients/axeptio-dark.svg"
+              src="/images/clients/axeptio-dark.svg"
               alt="axeptio"
               class="hidden dark:inline-block"
             />
           </div>
           <div class="marquee-content-list ">
             <img
-              src="images/clients/mfinity.svg"
+              src="/images/clients/mfinity.svg"
               alt="mfinity"
               class="inline-block dark:hidden"
             />
             <img
-              src="images/clients/mfinity-dark.svg"
+              src="/images/clients/mfinity-dark.svg"
               alt="mfinity"
               class="hidden dark:inline-block"
             />

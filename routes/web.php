@@ -2,7 +2,9 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::view('/', 'pages.crypto');
+Route::view('/', 'pages.crypto')
+    ->name('home');
+    
 
 Route::view('dashboard', 'dashboard')
     ->middleware(['auth', 'verified'])

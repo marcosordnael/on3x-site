@@ -8,4 +8,10 @@ export default defineConfig({
             refresh: true,
         }),
     ],
+    server: {
+        fs: {
+            allow: ['..']
+        }
+    },
+    publicDir: 'public'
 });

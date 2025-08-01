@@ -6,6 +6,9 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { Fancybox } from '@fancyapps/ui';
 
+// Importar funcionalidade de busca
+import './search.js';
+
 document.addEventListener('DOMContentLoaded', function () {
   // Tema escuro/claro
   const themeToggleDarkIcon = document.getElementById('theme-toggle-dark-icon');
@@ -111,15 +114,84 @@ document.addEventListener('DOMContentLoaded', function () {
   // Fancybox
   Fancybox.bind('[data-fancybox]', {});
 
-  // GSAP e MotionPath
+  // GSAP e MotionPath - Verificar se elementos existem antes de animar
   gsap.registerPlugin(MotionPathPlugin);
-  gsap.set('#rect, #rect-2, #rect-3, #rect-4, #rect-5, #rect-6', { opacity: 1 });
-  gsap.from('#rect', { motionPath: { path: '#path', autoRotate: true, align: '#path', alignOrigin: [0.5, 0.5] }, duration: 2, ease: 'none', repeat: -1, repeatDelay: 0 });
-  gsap.from('#rect-2', { motionPath: { path: '#path-2', autoRotate: true, align: '#path-2', alignOrigin: [0.5, 0.5] }, duration: 2, ease: 'none', repeat: -1, repeatDelay: 0 });
-  gsap.from('#rect-3', { motionPath: { path: '#path-3', autoRotate: true, align: '#path-3', alignOrigin: [0.5, 0.5] }, duration: 2, ease: 'none', repeat: -1, repeatDelay: 0 });
-  gsap.from('#rect-4', { motionPath: { path: '#path-4', autoRotate: true, align: '#path-4', alignOrigin: [0.5, 0.5] }, duration: 2, ease: 'none', repeat: -1, repeatDelay: 0 });
-  gsap.from('#rect-5', { motionPath: { path: '#path-5', autoRotate: true, align: '#path-5', alignOrigin: [0.5, 0.5] }, duration: 2, ease: 'none', repeat: -1, repeatDelay: 0 });
-  gsap.from('#rect-6', { motionPath: { path: '#path-6', autoRotate: true, align: '#path-6', alignOrigin: [0.5, 0.5] }, duration: 2, ease: 'none', repeat: -1, repeatDelay: 0 });
+  
+  // Função para animar apenas se os elementos existirem
+  function animateIfExists(selector, pathSelector) {
+    const element = document.querySelector(selector);
+    const path = document.querySelector(pathSelector);
+    
+    if (element && path) {
+      gsap.set(selector, { opacity: 1 });
+      gsap.from(selector, { 
+        motionPath: { 
+          path: pathSelector, 
+          autoRotate: true, 
+          align: pathSelector, 
+          alignOrigin: [0.5, 0.5] 
+        }, 
+        duration: 2, 
+        ease: 'none', 
+        repeat: -1, 
+        repeatDelay: 0 
+      });
+    }
+  }
+
+  // Animar elementos GSAP apenas se existirem
+  animateIfExists('#rect', '#path');
+  animateIfExists('#rect-2', '#path-2');
+  animateIfExists('#rect-3', '#path-3');
+  animateIfExists('#rect-4', '#path-4');
+  animateIfExists('#rect-5', '#path-5');
+  animateIfExists('#rect-6', '#path-6');
+
+  // Modal functionality - verificar se elementos existem
+  const modal = document.getElementById('modal');
+  const modalOpenBtn = document.getElementById('open-btn');
+  const modalCloseBtn = document.getElementById('ok-btn');
+
+  if (modal && modalOpenBtn) {
+    modalOpenBtn.onclick = function() {
+      modal.style.display = 'flex';
+    };
+  }
+
+  if (modal && modalCloseBtn) {
+    modalCloseBtn.onclick = function() {
+      modal.style.display = 'none';
+    };
+  }
+
+  if (modal) {
+    window.onclick = function(event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+      }
+    };
+  }
+
+  // FAQ Accordion functionality
+  const faqHeaders = document.querySelectorAll('.faq-header');
+  faqHeaders.forEach(header => {
+    header.addEventListener('click', function() {
+      const faqItem = this.closest('.faq-item');
+      const faqBody = faqItem.querySelector('.faq-body');
+      
+      if (faqItem && faqBody) {
+        faqItem.classList.toggle('open');
+        
+        if (faqBody.classList.contains('close')) {
+          faqBody.classList.remove('close');
+          faqBody.style.maxHeight = faqBody.scrollHeight + 'px';
+        } else {
+          faqBody.classList.add('close');
+          faqBody.style.maxHeight = '0px';
+        }
+      }
+    });
+  });
 
   // ...adicione aqui o restante das funções do script.js conforme necessário...
 });
