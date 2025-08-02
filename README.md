@@ -8,7 +8,7 @@ Plataforma moderna de banco digital com foco em criptomoedas, desenvolvida com L
 - **Laravel 12** - Framework PHP moderno
 - **Livewire 3.6** - Componentes dinâmicos full-stack
 - **Livewire Volt** - Componentes de página única
-- **SQLite** - Banco de dados leve para desenvolvimento
+- **PostgreSQL** - Banco de dados relacional robusto
 
 ### Frontend & UI
 - **Tailwind CSS 4** - Framework CSS utility-first
@@ -62,6 +62,7 @@ Plataforma moderna de banco digital com foco em criptomoedas, desenvolvida com L
 - **Composer** 2.x
 - **Node.js** >= 18
 - **NPM** ou **Yarn**
+- **PostgreSQL** >= 13
 
 ## 🔧 Instalação
 
@@ -89,7 +90,15 @@ php artisan key:generate
 
 5. **Configure banco de dados:**
 ```bash
-# O projeto já vem com SQLite configurado
+# Configure PostgreSQL no arquivo .env
+DB_CONNECTION=
+DB_HOST=
+DB_PORT=
+DB_DATABASE=
+DB_USERNAME=
+DB_PASSWORD=sua_senha
+
+# Execute as migrações
 php artisan migrate
 ```
 
