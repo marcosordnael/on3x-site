@@ -8,8 +8,8 @@
     </div>
     <div class="flex  max-md:flex-col max-md:gap-y-10 items-center justify-between mb-10">
       <div class="max-md:text-center">
-        <img src="/images/logo.png" alt="logo" class="inline-block dark:hidden mb-10">
-        <img src="/images/logo-dark.svg" alt="logo dark version" class="hidden dark:inline-block  mb-10">
+        <img src="/images/logo.png" alt="logo" class="dark:hidden h-12 w-auto" style="width: auto; height: 70px;" />
+        <img src="/images/logo.png" alt="logo dark version" class="hidden dark:inline-block h-12 w-auto" style="width: auto; height: 70px;" />
         <p class="max-w-[350px] max-lg:mx-auto">
           Turpis tortor nunc sed amet et faucibus vitae morbi congue sed id mauris.
         </p>

@@ -30,12 +30,12 @@
         <!-- Remember Me & Forgot Password -->
         <div class="flex items-center justify-between">
             <label for="remember" class="inline-flex items-center">
-                <input wire:model="remember" id="remember" type="checkbox" class="rounded border-gray-300 dark:border-borderColour-dark text-primary-600 shadow-sm focus:ring-primary-500 dark:bg-dark-100" name="remember">
-                <span class="ms-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Remember me') }}</span>
+                <input wire:model="remember" id="remember" type="checkbox" class="rounded border-gray-300 dark:border-gray-600 text-gray-800 dark:text-gray-200 shadow-sm focus:ring-gray-500/50 dark:bg-dark-100 dark:focus:ring-gray-300/30" name="remember">
+                <span class="ms-2 text-sm text-gray-600 dark:text-gray-300">{{ __('Remember me') }}</span>
             </label>
 
             @if (Route::has('password.request'))
-                <a class="text-sm text-primary-600 hover:text-primary-700 dark:text-primary-400 dark:hover:text-primary-300 font-medium transition-colors duration-200" href="{{ route('password.request') }}" wire:navigate>
+                <a class="text-sm text-gray-800 hover:text-black dark:text-gray-200 dark:hover:text-white font-medium transition-colors duration-200" href="{{ route('password.request') }}" wire:navigate>
                     {{ __('Forgot password?') }}
                 </a>
             @endif
@@ -49,10 +49,10 @@
         </div>
 
         <!-- Register Link -->
-        <div class="text-center pt-4 border-t border-gray-100 dark:border-borderColour-dark">
-            <p class="text-sm text-gray-600 dark:text-gray-400">
+        <div class="text-center pt-4 border-t border-gray-100 dark:border-gray-700">
+            <p class="text-sm text-gray-600 dark:text-gray-300">
                 Don't have an account? 
-                <a href="{{ route('register') }}" wire:navigate class="text-primary-600 hover:text-primary-700 dark:text-primary-400 dark:hover:text-primary-300 font-medium transition-colors duration-200">
+                <a href="{{ route('register') }}" wire:navigate class="text-gray-800 hover:text-black dark:text-gray-200 dark:hover:text-white font-medium transition-colors duration-200">
                     Create account
                 </a>
             </p>

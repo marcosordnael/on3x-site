@@ -53,10 +53,10 @@
         </div>
 
         <!-- Login Link -->
-        <div class="text-center pt-4 border-t border-gray-100 dark:border-borderColour-dark">
-            <p class="text-sm text-gray-600 dark:text-gray-400">
+        <div class="text-center pt-4 border-t border-gray-100 dark:border-gray-700">
+            <p class="text-sm text-gray-600 dark:text-gray-300">
                 Already have an account? 
-                <a href="{{ route('login') }}" wire:navigate class="text-primary-600 hover:text-primary-700 dark:text-primary-400 dark:hover:text-primary-300 font-medium transition-colors duration-200">
+                <a href="{{ route('login') }}" wire:navigate class="text-gray-800 hover:text-black dark:text-gray-200 dark:hover:text-white font-medium transition-colors duration-200">
                     Sign in
                 </a>
             </p>

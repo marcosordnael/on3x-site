@@ -4,7 +4,7 @@
   <div class="container relative">
     <div class="text-center max-w-[550px] mx-auto mb-16" data-aos="fade-down" data-aos-duration="600" data-aos-delay="100">
       <p class="section-tagline">Financial blog tips and tricks</p>
-      <h2>Our recent news &amp; insights</h2>
+      <h2 class="mb-8 text-2xl md:text-3xl lg:text-4xl font-bold">Our recent news &amp; insights</h2>
     </div>
     <div class="relative z-10">
       <div class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 flex max-lg:flex-col -z-10 max-md:hidden">

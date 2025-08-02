@@ -4,14 +4,14 @@
     <div class="mb-12 text-center max-w-[475px] mx-auto relative z-10">
       <p class="section-tagline">Our Team</p>
 
-      <h2>Our leading, strong and creative team</h2>
+      <h2 class="mb-8 text-2xl md:text-3xl lg:text-4xl font-bold leading-tight">Our leading, strong and creative team</h2>
     </div>
 
     <div class="relative z-10">
       <div class="absolute left-1/2 max-md:top-0 md:top-1/2 -translate-x-1/2 -translate-y-1/2 flex max-md:flex-col -z-10 max-md:hidden">
-        <div class="max-1xl:w-[335px] max-1xl:h-[335px]  1xl:w-[442px] 1xl:h-[442px]  rounded-full bg-primary-200/20 blur-[145px]"></div>
-        <div class="max-1xl:w-[335px] max-1xl:h-[335px]  1xl:w-[442px] 1xl:h-[442px]  rounded-full bg-primary-200/25 -ml-[170px] max-md:ml-0 blur-[145px]"></div>
-        <div class="max-1xl:w-[335px] max-1xl:h-[335px]  1xl:w-[442px] 1xl:h-[442px]  rounded-full bg-primary-200/20 -ml-[170px] max-md:ml-0 blur-[145px]"></div>
+        <div class="max-xl:w-[335px] max-xl:h-[335px]  xl:w-[442px] xl:h-[442px]  rounded-full bg-primary-200/20 blur-[145px]"></div>
+        <div class="max-xl:w-[335px] max-xl:h-[335px]  xl:w-[442px] xl:h-[442px]  rounded-full bg-primary-200/25 -ml-[170px] max-md:ml-0 blur-[145px]"></div>
+        <div class="max-xl:w-[335px] max-xl:h-[335px]  xl:w-[442px] xl:h-[442px]  rounded-full bg-primary-200/20 -ml-[170px] max-md:ml-0 blur-[145px]"></div>
       </div>
       <div class="absolute left-1/2 -top-[550px] p-[350px] -translate-x-1/2 bg-contain w-full h-full  bg-[url('/images/hero-gradient.png')] bg-no-repeat bg-center opacity-70 md:hidden -z-10"></div>
       <div class="grid grid-cols-3 max-md:grid-cols-1 gap-8">

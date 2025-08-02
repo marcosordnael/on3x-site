@@ -1,25 +1,25 @@
 <section
   id="hero"
-  class="hero crypto-hero bg-white dark:bg-dark-300 overflow-hidden relative max-lg:pt-[160px] max-lg:pb-25 pt-[230px] pb-[140px] max-md:pb-[70px]"
+  class="hero crypto-hero bg-white dark:bg-dark-300 overflow-hidden relative max-lg:pt-[160px] max-lg:pb-25 pt-[230px] pb-[100px] max-md:pb-[70px]"
   id="scene"
 >
   <img
     src="/images/crypto/bitcoin.png"
     alt=""
     class="absolute top-[160px] left-[200px] max-md:hidden parallax-effect"
-    parallax-value="2"
+    data-parallax-value="2"
   />
   <img
     src="/images/crypto/clip.png"
     alt=""
     class="absolute top-[160px] right-12 hidden dark:inline-block  max-md:hidden parallax-effect"
-    parallax-value="1"
+    data-parallax-value="1"
   />
   <img
     src="/images/crypto/clip-dark.png"
     alt=""
     class="absolute top-[160px] right-12 dark:hidden  max-md:hidden parallax-effect"
-    parallax-value="1"
+    data-parallax-value="1"
   />
   <div
     class="absolute -top-10 left-1/2 -translate-x-1/2 h-[200px] w-full max-w-[900px] rounded-full bg-primary/50 blur-[145px]"
@@ -146,7 +146,7 @@
             class="absolute left-1/2 top-20 -translate-x-1/2 -translate-y-1/2 flex max-md:flex-col -z-10 max-md:hidden "
           >
             <div
-              class="max-1xl:w-[335px] max-1xl:h-[335px]  1xl:w-[442px] 1xl:h-[442px]  rounded-full bg-primary-200/25  max-md:ml-0 blur-[145px]"
+              class="max-xl:w-[335px] max-xl:h-[335px]  xl:w-[442px] xl:h-[442px]  rounded-full bg-primary-200/25  max-md:ml-0 blur-[145px]"
             ></div>
           </div>
           <div class="absolute left-1/2 -translate-x-1/2 -top-150 -z-20">
@@ -196,7 +196,7 @@
         <div class="relative bg-white rounded-[230px] dark:bg-dark-200 shadow-box p-2.5 mb-8 z-100 inline-block">
           <div class="border border-dashed rounded-[210px] border-gray-100 dark:border-borderColour-dark py-2.5 h-full text-center relative w-[630px] max-md:w-full flex items-center justify-center">
             <div class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[300px] h-20 rounded-full bg-primary-200/40 dark:bg-primary-200/10 blur-[145px]"></div>
-            <h2 class="text-[64px] max-md:text-[24px]  max-md:px-2.5" id="countdown" data-date="2024-11-26T23:59:59">Countdown finished!</h2>
+            <h2 class="text-[64px] max-md:text-[24px] font-bold max-md:px-2.5" id="countdown" data-date="2024-11-26T23:59:59">Countdown finished!</h2>
           </div>
         </div>
       </div>

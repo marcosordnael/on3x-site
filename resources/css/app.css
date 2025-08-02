@@ -1,6 +1,3 @@
-/* Importar FontAwesome */
-@import '@fortawesome/fontawesome-free/css/all.css';
-
 /* Importar tema personalizado */
 @import 'theme.css';
 
@@ -35,15 +32,22 @@
   .font-playfair { font-family: 'Playfair Display', serif; }
   .font-jakarta_sans { font-family: 'Plus Jakarta Sans', sans-serif; }
 
-  .bg-primary { background-color: #219653; }
+  .bg-primary { background-color: #000000; }
+  .bg-primary-50 { background-color: rgba(0, 0, 0, 0.05); }
+  .bg-primary-100 { background-color: rgba(0, 0, 0, 0.1); }
+  .bg-primary-200 { background-color: rgba(0, 0, 0, 0.2); }
+  .bg-primary-300 { background-color: rgba(0, 0, 0, 0.3); }
+  .bg-primary-400 { background-color: rgba(0, 0, 0, 0.4); }
+  .bg-primary-500 { background-color: rgba(0, 0, 0, 0.5); }
   .bg-paragraph { background-color: #A1A49D; }
+  .bg-dark-100 { background-color: #3A3B39; }
   .bg-dark-200 { background-color: #2B2D2A; }
   .bg-dark-300 { background-color: #30302F; }
-  .text-primary { color: #219653; }
+  .text-primary { color: #000000; }
   .text-paragraph { color: #A1A49D; }
   .text-paragraph-light { color: #A7A7B4; }
   .border-paragraph { border-color: #A1A49D; }
-  .border-primary { border-color: #219653; }
+  .border-primary { border-color: #000000; }
   .rounded-medium { border-radius: 20px; }
   .shadow-nav { box-shadow: 0 8px 32px 0 rgba(33, 150, 83, 0.10); }
   .btn-outline {
@@ -219,8 +223,8 @@
 }
 
 /* Estabilização da barra de pesquisa - evita movimentação durante updates */
-.search-stable {
+/* .search-stable {
   transform: none !important;
   animation: none !important;
   transition: none !important;
-}
+} */

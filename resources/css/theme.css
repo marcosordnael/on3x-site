@@ -2893,6 +2893,7 @@ a:is(.dark *){
   --marquee-elements-displayed: 6;
   --marquee-element-width: calc(var(--marquee-width) / var(--marquee-elements-displayed));
   --marquee-animation-duration: calc(var(--marquee-elements) * 3s);
+  
 }
 @media (max-width: 1024px) {
   :root {

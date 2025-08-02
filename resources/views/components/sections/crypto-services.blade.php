@@ -4,9 +4,9 @@
   ></div>
   <div class="container relative">
     <div class=" text-center mb-14">
-      <p class="section-tagline mb-3">Our services</p>
+      <p class="section-tagline mb-3">Our services</p>
 
-      <h2 class="mb-12">
+      <h2 class="mb-8 text-2xl md:text-3xl lg:text-4xl font-bold leading-tight">
         Comprehensive Guide to Cryptocurrency Services <br />
         Aplio.
       </h2>
@@ -17,13 +17,13 @@
         class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 flex max-md:flex-col -z-10 max-md:hidden "
       >
         <div
-          class="max-1xl:w-[335px] max-1xl:h-[335px]  1xl:w-[442px] 1xl:h-[442px]  rounded-full bg-primary-200/20 blur-[145px]"
+          class="max-xl:w-[335px] max-xl:h-[335px]  xl:w-[442px] xl:h-[442px]  rounded-full bg-primary-200/20 blur-[145px]"
         ></div>
         <div
-          class="max-1xl:w-[335px] max-1xl:h-[335px]  1xl:w-[442px] 1xl:h-[442px]  rounded-full bg-primary-200/25 -ml-[170px] max-md:ml-0 blur-[145px]"
+          class="max-xl:w-[335px] max-xl:h-[335px]  xl:w-[442px] xl:h-[442px]  rounded-full bg-primary-200/25 -ml-[170px] max-md:ml-0 blur-[145px]"
         ></div>
         <div
-          class="max-1xl:w-[335px] max-1xl:h-[335px]  1xl:w-[442px] 1xl:h-[442px]  rounded-full bg-primary-200/20 -ml-[170px] max-md:ml-0 blur-[145px]"
+          class="max-xl:w-[335px] max-xl:h-[335px]  xl:w-[442px] xl:h-[442px]  rounded-full bg-primary-200/20 -ml-[170px] max-md:ml-0 blur-[145px]"
         ></div>
       </div>
       <div

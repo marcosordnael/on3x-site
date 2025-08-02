@@ -5,21 +5,21 @@
   <div class="container relative">
     <div class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 flex max-md:flex-col -z-10 max-md:hidden ">
       <div
-        class="max-1xl:w-[335px] max-1xl:h-[335px]  1xl:w-[442px] 1xl:h-[442px]  rounded-full bg-primary-200/20 blur-[145px]"
+        class="max-xl:w-[335px] max-xl:h-[335px]  xl:w-[442px] xl:h-[442px]  rounded-full bg-primary-200/20 blur-[145px]"
       ></div>
       <div
-        class="max-1xl:w-[335px] max-1xl:h-[335px]  1xl:w-[442px] 1xl:h-[442px]  rounded-full bg-primary-200/25 -ml-[170px] max-md:ml-0 blur-[145px]"
+        class="max-xl:w-[335px] max-xl:h-[335px]  xl:w-[442px] xl:h-[442px]  rounded-full bg-primary-200/25 -ml-[170px] max-md:ml-0 blur-[145px]"
       ></div>
       <div
-        class="max-1xl:w-[335px] max-1xl:h-[335px]  1xl:w-[442px] 1xl:h-[442px]  rounded-full bg-primary-200/20 -ml-[170px] max-md:ml-0 blur-[145px]"
+        class="max-xl:w-[335px] max-xl:h-[335px]  xl:w-[442px] xl:h-[442px]  rounded-full bg-primary-200/20 -ml-[170px] max-md:ml-0 blur-[145px]"
       ></div>
     </div>
     <div class="grid grid-cols-12 gap-8 items-center ">
       <div class="bg-white dark:bg-dark-200 rounded-medium p-2.5 shadow-nav col-span-12" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
         <div class="border border-dashed rounded border-gray-100 dark:border-borderColour-dark max-lg:p-5 p-10 ">
           <div class="grid grid-cols-12 gap-6 ">
-            <div class="col-span-12 md:col-span-6 1xl:col-span-7 1xl:pr-20" data-aos="fade-right" data-aos-duration="600" data-aos-delay="200">
-              <h3 class="mb-8 leading-8">Cryptocurrency Market</h3>
+            <div class="col-span-12 md:col-span-6 xl:col-span-7 xl:pr-20" data-aos="fade-right" data-aos-duration="600" data-aos-delay="200">
+              <h3 class="mb-8 text-lg md:text-xl lg:text-2xl font-bold">Cryptocurrency Market</h3>
               <p class="mb-8">
                 he concept of cryptocurrency is born when an anonymous individual or group known as Satoshi Nakamoto
                 publishes the Bitcoin whitepaper titled "Bitcoin: A Peer to Peer Electronic Cash System."
@@ -34,7 +34,7 @@
                 Read More
               </a>
             </div>
-            <div class="col-span-12 md:col-span-6 1xl:col-span-5" data-aos="fade-left" data-aos-duration="600" data-aos-delay="300">
+            <div class="col-span-12 md:col-span-6 xl:col-span-5" data-aos="fade-left" data-aos-duration="600" data-aos-delay="300">
               <img
                 src="/images/marketing/crypto-market-1.png"
                 alt="image"
@@ -52,7 +52,7 @@
       <div class="bg-white dark:bg-dark-200 rounded-medium p-2.5 shadow-nav col-span-12 lg:col-span-4" data-aos="fade-up" data-aos-duration="700" data-aos-delay="200">
         <div class="border border-dashed rounded border-gray-100 dark:border-borderColour-dark max-lg:p-5 p-10 ">
           <div class="mb-6" data-aos="fade-down" data-aos-duration="500" data-aos-delay="300">
-            <h3 class="mb-2.5 leading-8">Bitcoin source</h3>
+            <h3 class="mb-2.5 text-lg md:text-xl lg:text-2xl font-bold">Bitcoin source</h3>
             <p class="mb-6">
               Bitcoin was created by an unknown person or group of people using the pseudonym Satoshi Nakamoto.
             </p>
@@ -95,7 +95,7 @@
             />
           </div>
           <div class="" data-aos="fade-up" data-aos-duration="500" data-aos-delay="500">
-            <h3 class="mb-2.5 leading-8">Cryptocurrencies</h3>
+            <h3 class="mb-2.5 text-lg md:text-xl lg:text-2xl font-bold">Cryptocurrencies</h3>
             <p class="mb-6">Cryptocurrencies are digital or virtual currencies that use cryptography for security.</p>
             <a
               href="services.html"
@@ -112,7 +112,7 @@
       <div class="bg-white dark:bg-dark-200 rounded-medium p-2.5 shadow-nav col-span-12 sm:col-span-6 lg:col-span-4" data-aos="fade-up" data-aos-duration="700" data-aos-delay="400">
         <div class="border border-dashed rounded border-gray-100 dark:border-borderColour-dark max-lg:p-5 p-10 ">
           <div class="mb-8" data-aos="fade-down" data-aos-duration="500" data-aos-delay="500">
-            <h3 class="mb-2.5 leading-8">Market charts</h3>
+            <h3 class="mb-2.5 text-lg md:text-xl lg:text-2xl font-bold">Market charts</h3>
             <p class="mb-6">
               Market charts are representations of data that track the performance of financial or commodities over
               time.

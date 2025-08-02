@@ -1,10 +1,10 @@
-<header class="fixed left-0 top-0 p-4 z-[1000000000] duration-500  transition-all w-full bg-transparent"
+<header class="fixed left-0 top-0 z-[1000000000] p-2 transition-all w-full bg-transparent"
   id="mainnavigationBar">
   <nav class="container flex relative items-center">
     <div class="nav-logo">
       <a href="#hero" onclick="scrollToTop(event)">
-        <img src="/images/logo-dark.svg" alt="logo" class="dark:hidden" />
-        <img src="/images/logo-dark.svg" alt="logo dark version" class="hidden dark:inline-block" />
+        <img src="/images/logo-dark.png" alt="logo" class="dark:hidden h-7 w-auto" style="width: auto; height: 29px;" />
+        <img src="/images/logo-dark.png" alt="logo dark version" class="hidden dark:inline-block h-7 w-auto" style="width: auto; height: 29px;" />
       </a>
     </div>
     <ul class="nav-list hidden lg:flex lg:ml-7 xl:ml-15  [&>*:not(:last-child)]:me-1">

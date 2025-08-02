@@ -1,6 +1,6 @@
-<section id="about" class=" bg-white dark:bg-dark-300 overflow-hidden relative pb-150 max-md:pb-20 pt-20">
+<section id="about" class="bg-white dark:bg-dark-300 overflow-hidden relative pb-[150px] max-md:pb-20 pt-20">
   <div class="container relative z-10">
-    <div class="grid grid-cols-2 max-md:grid-cols-1 gap-10 1xl:gap-x-24 items-center">
+    <div class="grid grid-cols-2 max-md:grid-cols-1 gap-10 xl:gap-x-20 items-center">
       <div class="relative flex max-md:justify-center justify-end items-center">
         <img
           src="/images/about/aboutCrypto.png"
@@ -43,50 +43,28 @@
       <div>
         <p class="section-tagline">ABOUT</p>
 
-        <h2 class="max-md:mb-4 mb-8">Crypto is the premier crowdsale service!</h2>
+        <h2 class="mb-8 text-2xl md:text-3xl lg:text-4xl font-bold">Crypto is the premier crowdsale service!</h2>
 
         <div class="bg-white rounded-[90px] dark:bg-dark-200 shadow-box p-2.5 mb-8">
-          <div
-            class="border border-dashed rounded-large border-gray-100 dark:border-borderColour-dark p-2.5 h-full text-center "
-          >
-            <ul class="flex overflow-auto items-center tabs gap-3">
-              <li
-                data-tab-target="#tab1"
-                class=" group tab tab-active"
-              >
-                <span
-                  class="group-[.tab-active]:bg-paragraph dark:group-[.tab-active]:bg-primary group-[.tab-active]:text-white dark:group-[.tab-active]:text-paragraph group-[.tab-active]:border-paragraph dark:group-[.tab-active]:border-primary font-medium py-2 px-5 rounded-[60px] border border-borderColour-dark dark:border-borderColour-dark hover:bg-paragraph  dark:hover:bg-primary hover:text-white dark:hover:text-paragraph duration-500 hover:duration-500 transition-colors leading-[22px] cursor-pointer"
-                >
+          <div class="border border-dashed rounded-large border-gray-100 dark:border-borderColour-dark p-2.5 h-full text-center ">
+            <ul class="flex overflow-auto items-center tabs gap-2 p-y-2">
+              <li data-tab-target="#tab1" class=" group tab tab-active">
+                <span class="group-[.tab-active]:bg-paragraph dark:group-[.tab-active]:bg-primary group-[.tab-active]:text-white dark:group-[.tab-active]:text-paragraph group-[.tab-active]:border-paragraph dark:group-[.tab-active]:border-primary font-medium py-2 px-5 rounded-[60px] border border-borderColour-dark dark:border-borderColour-dark hover:bg-paragraph  dark:hover:bg-primary hover:text-white dark:hover:text-paragraph duration-500 hover:duration-500 transition-colors leading-[22px] cursor-pointer">
                   Decentralization
                 </span>
               </li>
-              <li
-                data-tab-target="#tab2"
-                class=" group tab"
-              >
-                <span
-                  class="group-[.tab-active]:bg-paragraph dark:group-[.tab-active]:bg-primary group-[.tab-active]:text-white dark:group-[.tab-active]:text-paragraph group-[.tab-active]:border-paragraph dark:group-[.tab-active]:border-primary font-medium py-2 px-5 rounded-[60px] border border-borderColour-dark dark:border-borderColour-dark hover:bg-paragraph  dark:hover:bg-primary hover:text-white dark:hover:text-paragraph duration-500 hover:duration-500 transition-colors leading-[22px] cursor-pointer"
-                >
+              <li data-tab-target="#tab2" class=" group tab">
+                <span class="group-[.tab-active]:bg-paragraph dark:group-[.tab-active]:bg-primary group-[.tab-active]:text-white dark:group-[.tab-active]:text-paragraph group-[.tab-active]:border-paragraph dark:group-[.tab-active]:border-primary font-medium py-2 px-5 rounded-[60px] border border-borderColour-dark dark:border-borderColour-dark hover:bg-paragraph  dark:hover:bg-primary hover:text-white dark:hover:text-paragraph duration-500 hover:duration-500 transition-colors leading-[22px] cursor-pointer">
                   Blockchain
                 </span>
               </li>
-              <li
-                data-tab-target="#tab3"
-                class=" group tab"
-              >
-                <span
-                  class="group-[.tab-active]:bg-paragraph dark:group-[.tab-active]:bg-primary group-[.tab-active]:text-white dark:group-[.tab-active]:text-paragraph group-[.tab-active]:border-paragraph dark:group-[.tab-active]:border-primary font-medium py-2 px-5 rounded-[60px] border border-borderColour-dark dark:border-borderColour-dark hover:bg-paragraph  dark:hover:bg-primary hover:text-white dark:hover:text-paragraph duration-500 hover:duration-500 transition-colors leading-[22px] cursor-pointer"
-                >
+              <li data-tab-target="#tab3" class=" group tab">
+                <span class="group-[.tab-active]:bg-paragraph dark:group-[.tab-active]:bg-primary group-[.tab-active]:text-white dark:group-[.tab-active]:text-paragraph group-[.tab-active]:border-paragraph dark:group-[.tab-active]:border-primary font-medium py-2 px-5 rounded-[60px] border border-borderColour-dark dark:border-borderColour-dark hover:bg-paragraph  dark:hover:bg-primary hover:text-white dark:hover:text-paragraph duration-500 hover:duration-500 transition-colors leading-[22px] cursor-pointer">
                   Privacy
                 </span>
               </li>
-              <li
-                data-tab-target="#tab4"
-                class=" group tab"
-              >
-                <span
-                  class="group-[.tab-active]:bg-paragraph dark:group-[.tab-active]:bg-primary group-[.tab-active]:text-white dark:group-[.tab-active]:text-paragraph group-[.tab-active]:border-paragraph dark:group-[.tab-active]:border-primary font-medium py-2 px-5 rounded-[60px] border border-borderColour-dark dark:border-borderColour-dark hover:bg-paragraph  dark:hover:bg-primary hover:text-white dark:hover:text-paragraph duration-500 hover:duration-500 transition-colors leading-[22px] cursor-pointer"
-                >
+              <li data-tab-target="#tab4" class=" group tab">
+                <span class="group-[.tab-active]:bg-paragraph dark:group-[.tab-active]:bg-primary group-[.tab-active]:text-white dark:group-[.tab-active]:text-paragraph group-[.tab-active]:border-paragraph dark:group-[.tab-active]:border-primary font-medium py-2 px-5 rounded-[60px] border border-borderColour-dark dark:border-borderColour-dark hover:bg-paragraph  dark:hover:bg-primary hover:text-white dark:hover:text-paragraph duration-500 hover:duration-500 transition-colors leading-[22px] cursor-pointer">
                   Exchanges
                 </span>
               </li>

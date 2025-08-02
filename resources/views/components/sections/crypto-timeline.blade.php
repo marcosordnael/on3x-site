@@ -6,7 +6,7 @@
         <div class="max-lg:mb-20">
           <p class="section-tagline">What we offer</p>
 
-          <h2 class="mb-8">Timeline</h2>
+          <h2 class="mb-8 text-2xl md:text-3xl lg:text-4xl font-bold leading-tight">Timeline</h2>
           <p class="lg:max-w-[520px]">
             With concepts in hand, we meticulously design, refining every detail to align with your vision and
             objectives.
@@ -26,16 +26,16 @@
                 <div class="flex gap-2.5 md:gap-5 lg:gap-20 items-center">
                   <div class="flex item-center justify-center relative shrink-0">
                     <div class="bg-white dark:bg-dark-200 rounded-medium p-2.5 max-xs:p-2 shadow-nav relative">
-                      <div class="border border-dashed rounded border-gray-100 dark:border-borderColour-dark max-xs:p-2 max-1xl:p-5 1xl:p-10">
-                        <h3 class="max-md:text-base">2008-2010</h3>
+                      <div class="border border-dashed rounded border-gray-100 dark:border-borderColour-dark max-xs:p-2 max-xl:p-5 xl:p-10">
+                        <h3 class="text-lg md:text-xl lg:text-2xl font-bold">2008-2010</h3>
                       </div>
                     </div>
                     <img src="/images/crypto/line.png" alt="line" class="absolute max-w-[none] top-1/2 -translate-y-1/2 -z-10 right-[-200px] ">
                   </div>
 
-                  <div class="bg-white dark:bg-dark-200 rounded-medium p-2.5 max-xs:p-2 shadow-nav w-[300px] 1xl:w-[400px]">
-                    <div class="border border-dashed rounded border-gray-100 dark:border-borderColour-dark max-xs:p-2 p-5 1xl:p-8 h-full flex justify-center flex-col">
-                      <h3 class="mb-3 leading-8">The Early Days</h3>
+                  <div class="bg-white dark:bg-dark-200 rounded-medium p-2.5 max-xs:p-2 shadow-nav w-[300px] xl:w-[400px]">
+                    <div class="border border-dashed rounded border-gray-100 dark:border-borderColour-dark max-xs:p-2 p-5 xl:p-8 h-full flex justify-center flex-col">
+                      <h3 class="mb-3 text-lg md:text-xl lg:text-2xl font-bold">The Early Days</h3>
 
                       <ul class="lg:list-disc">
                         <li class="mb-2.5 last:mb-0">
@@ -56,15 +56,15 @@
                 <div class="flex gap-2.5 md:gap-5 lg:gap-20 items-center">
                   <div class="flex item-center justify-center relative shrink-0">
                     <div class="bg-white dark:bg-dark-200 rounded-medium p-2.5 max-xs:p-2 shadow-nav relative">
-                      <div class="border border-dashed rounded border-gray-100 dark:border-borderColour-dark max-xs:p-2 max-1xl:p-5 1xl:p-10">
-                        <h3 class="max-md:text-base">2011-2013</h3>
+                      <div class="border border-dashed rounded border-gray-100 dark:border-borderColour-dark max-xs:p-2 max-xl:p-5 xl:p-10">
+                        <h3 class="text-lg md:text-xl lg:text-2xl font-bold">2011-2013</h3>
                       </div>
                     </div>
                     <img src="/images/crypto/line.png" alt="line" class="absolute max-w-[none] top-1/2 -translate-y-1/2 -z-10 right-[-200px] ">
                   </div>
-                  <div class="bg-white dark:bg-dark-200 rounded-medium max-xs:p-2 p-2.5 shadow-nav w-[300px] 1xl:w-[400px]">
-                    <div class="border border-dashed rounded border-gray-100 dark:border-borderColour-dark max-xs:p-2 p-5 1xl:p-8 h-full flex justify-center flex-col">
-                      <h3 class="mb-3 leading-8">Growth and Development</h3>
+                  <div class="bg-white dark:bg-dark-200 rounded-medium max-xs:p-2 p-2.5 shadow-nav w-[300px] xl:w-[400px]">
+                    <div class="border border-dashed rounded border-gray-100 dark:border-borderColour-dark max-xs:p-2 p-5 xl:p-8 h-full flex justify-center flex-col">
+                      <h3 class="mb-3 text-lg md:text-xl lg:text-2xl font-bold">Growth and Development</h3>
 
                       <ul class="lg:list-disc">
                         <li class="mb-2.5 last:mb-0">
@@ -83,15 +83,15 @@
                 <div class="flex gap-2.5 md:gap-5 lg:gap-20 items-center ">
                   <div class="flex item-center justify-center relative shrink-0">
                     <div class="bg-white dark:bg-dark-200 rounded-medium p-2.5 max-xs:p-2 shadow-nav relative">
-                      <div class="border border-dashed rounded border-gray-100 dark:border-borderColour-dark max-xs:p-2 max-1xl:p-5 1xl:p-10">
-                        <h3 class="max-md:text-base">2014-2016</h3>
+                      <div class="border border-dashed rounded border-gray-100 dark:border-borderColour-dark max-xs:p-2 max-xl:p-5 xl:p-10">
+                        <h3 class="text-lg md:text-xl lg:text-2xl font-bold">2014-2016</h3>
                       </div>
                     </div>
                     <img src="/images/crypto/line.png" alt="line" class="absolute max-w-[none] top-1/2 -translate-y-1/2 -z-10 right-[-200px] ">
                   </div>
-                  <div class="bg-white dark:bg-dark-200 rounded-medium max-xs:p-2 p-2.5 shadow-nav w-[300px] 1xl:w-[400px]">
-                    <div class="border border-dashed rounded border-gray-100 dark:border-borderColour-dark max-xs:p-2 p-5 1xl:p-8 h-full flex justify-center flex-col">
-                      <h3 class="mb-3 leading-8">Expansion Recognition</h3>
+                  <div class="bg-white dark:bg-dark-200 rounded-medium max-xs:p-2 p-2.5 shadow-nav w-[300px] xl:w-[400px]">
+                    <div class="border border-dashed rounded border-gray-100 dark:border-borderColour-dark max-xs:p-2 p-5 xl:p-8 h-full flex justify-center flex-col">
+                      <h3 class="mb-3 text-lg md:text-xl lg:text-2xl font-bold">Expansion Recognition</h3>
 
                       <ul class="lg:list-disc">
                         <li class="mb-2.5 last:mb-0">

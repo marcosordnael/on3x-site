@@ -132,7 +132,7 @@ on3x-bank/
 └── database/
 ```
 
-## 🤝 Contribuição
+## Contribuição
 
 1. Faça um fork do projeto
 2. Crie uma branch para sua feature (`git checkout -b feature/nova-feature`)
@@ -143,7 +143,3 @@ on3x-bank/
 ## 📄 Licença
 
 Este projeto está sob a licença MIT.
-
----
-
-Desenvolvido com ❤️ para ON3X Bank
